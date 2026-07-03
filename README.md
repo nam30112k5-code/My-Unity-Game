@@ -1,16 +1,23 @@
+
 # My Unity Game
 
-Ngắn gọn: trò chơi hành động-phiêu lưu 2D/3D, khám phá bản đồ, thu thập và nâng cấp nhân vật.
+Mô tả ngắn: trò chơi platformer 2D — người chơi chạy, nhảy, ăn coin, né trap và đối đầu kẻ địch tuần tra.
 
-Tính năng chính:
-- Chiến đấu thời gian thực và kỹ năng riêng biệt
-- Hệ thống trang bị và nâng cấp nhân vật
-- Nhiều bản đồ (Maps) có thử thách và boss
+Cách chơi nhanh:
+- Di chuyển: phím mũi tên trái/phải hoặc `A/D`.
+- Nhảy: `Space`.
+- Mục tiêu: thu coin tăng điểm, tránh trap và enemy; khi chết sẽ hiện UI Game Over.
 
-Chạy:
-1. Mở dự án trong Unity (phiên bản tương thích).
-2. Mở scene chính trong `Assets/Scenes` và nhấn Play.
+Tính năng hiện tại:
+- Player di chuyển và nhảy (`PlayerController`).
+- Kẻ địch di chuyển theo quãng và đổi hướng (`EnemyMove`).
+- Coin và trap trigger điểm/losing (`PlayerCoin`).
+- Quản lý điểm, hiển thị và restart (`Gamemanager`).
 
-Ghi chú kỹ thuật: tránh commit thư mục `Library/`, `Temp/` (đã có `.gitignore`).
+Chạy dự án:
+1. Mở Unity và load project.
+2. Mở scene trong `Assets/Scenes` và nhấn Play.
 
-Liên hệ: https://github.com/nam30112k5-code/My-Unity-Game
+Ghi chú: đã thêm `.gitignore` để tránh commit các thư mục sinh tự động như `Library/` và `Temp/`.
+
+Repo: https://github.com/nam30112k5-code/My-Unity-Game
